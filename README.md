@@ -24,23 +24,19 @@ This project is a file upload system built using Node.js, Express, and MongoDB G
 1. Clone the repository:
 git clone https://github.com/BootCamp-BMA/upload-files-mongo-gridFs.git cd upload-files-mongo-gridFs
 
-markdown
-Copy
-Edit
-2. Install dependencies:
-npm install
 
-markdown
-Copy
-Edit
-3. Set up environment variables:
+1. Install dependencies:
+```sh
+npm install
+```
+
+
+1. Set up environment variables:
 - Create a `.env` file (based on `.env.example`) with the required MongoDB connection details.
-4. Start the server:
+1. Start the server:
 npm start
 
-markdown
-Copy
-Edit
+
 
 ## API Endpoints:
 - `POST /upload` - Uploads a file.
